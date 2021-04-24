@@ -9,7 +9,8 @@ initial_extensions = [
     'cogs.slots',
     'cogs.rolls',
     'cogs.listeners',
-    'cogs.help'
+    'cogs.help',
+    'cogs.currency.wallets'
 ]
 
 bot = commands.Bot(command_prefix=settings.configdata["prefix"])
