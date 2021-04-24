@@ -8,7 +8,8 @@ import settings
 initial_extensions = [
     'cogs.slots',
     'cogs.rolls',
-    'cogs.listeners'
+    'cogs.listeners',
+    'cogs.help'
 ]
 
 bot = commands.Bot(command_prefix=settings.configdata["prefix"])

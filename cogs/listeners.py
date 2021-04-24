@@ -11,8 +11,9 @@ class listeners(commands.Cog):
     # When the bot logs in, print bot details to console
     @commands.Cog.listener('on_ready')
     async def on_ready(self):
+        prefix = settings.configdata["prefix"]
         print('[BOOT] Logged in at ' + str(dt.datetime.now()))
-        await self.bot.change_presence(activity=discord.Game(name="cb?help"))
+        await self.bot.change_presence(activity=discord.Game(name=f"{prefix}?help"))
         print("[INFO] Username:",self.bot.user.name)
         print("[INFO] User ID:",self.bot.user.id)
 

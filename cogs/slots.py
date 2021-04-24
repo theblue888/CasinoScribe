@@ -33,7 +33,7 @@ class slots(commands.Cog):
         await ctx.send('\n'.join(allrows))
 
     @commands.cooldown(8,10,commands.BucketType.user)
-    @commands.command(aliases=["ps"])
+    @commands.command(aliases=["ps", "pps"])
     async def pepeslots(self, ctx):
         firstrow = []
         secondrow = []
