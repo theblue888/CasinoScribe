@@ -66,12 +66,12 @@ class guessgame(commands.Cog):
             await ctx.send(f":warning: Your guess needs to be a valid float or integer {ctx.author.mention}!")
             return
 
-        if int(guess) > 51:
+        if float(guess) > 51:
             await ctx.send(f":warning: Your guess cannot be greater than **51**!")
             return
 
         real = round(random.uniform(1.0, 51.0),2)
-        if real == int(guess):
+        if real == float(guess):
             await ctx.send(f":white_check_mark: {ctx.author.mention} You win! Your guess was **{guess}** and the number was **{guess}**.")
         else:
             await ctx.send(f":x: {ctx.author.mention} Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
