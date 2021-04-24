@@ -7,7 +7,8 @@ class help(commands.Cog):
     def __init__(self,bot):
         self.bot = bot
         # Re-define the bot object into the class.
-
+        
+    @commands.cooldown(1,10,commands.BucketType.guild)
     @commands.command()
     async def help(self, ctx):
         title = settings.configdata["help"]["title"]
