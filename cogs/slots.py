@@ -78,5 +78,29 @@ class slots(commands.Cog):
         
         await ctx.send('\n'.join(allrows))
 
+    @commands.cooldown(8,10,commands.BucketType.user)
+    @commands.command(aliases=["vpn", "vs"])
+    async def vpnslots(self, ctx):
+        firstrow = []
+        secondrow = []
+        thirdrow = []
+
+        for x in range(3):
+            firstrow.append(random.choice(settings.emojidata["vpnslots"]))
+        
+        for x in range(3):
+            secondrow.append(random.choice(settings.emojidata["vpnslots"]))
+
+        for x in range(3):
+            thirdrow.append(random.choice(settings.emojidata["vpnslots"]))
+        
+        allrows = []
+        allrows.append(''.join(firstrow))
+        allrows.append(''.join(secondrow))
+        allrows.append(''.join(thirdrow))
+        
+        await ctx.send('\n'.join(allrows))
+
+
 def setup(bot):
     bot.add_cog(slots(bot))
