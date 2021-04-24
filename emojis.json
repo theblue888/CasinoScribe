@@ -1,7 +1,72 @@
 {
-    "catroll": ["<:smileCat:834575570792087572>", "<a:catstare:835280025037045781>"],
-    "fruitslots": [":green_apple:",":apple:",":pear:",":tangerine:",":lemon:",":banana:",":watermelon:",":grapes:",":blueberries:",":strawberry:",":melon:",":cherries:",":peach:",":mango:",":pineapple:",":coconut:",":kiwi:"],
-    "pepeslots": ["<a:pepetyping:713547230698799174>","<a:peperungib:824028120834637825>","<a:pepepopcorn:713547240219607072>","<:pepeOK:713568037265211453>","<:pepeking:713547226848297051>","<a:pepejammies:713547224935563295>","<a:pepeLaughing:768266895387263006>","<a:pepelowerglasses:713547239506706443>","<a:pepeinvestigate:713547234075082883>","<:pepeHug:750127445075558539>","<:PepeHappy:713568037269274785>","<a:pepecryrun:713547226991034409>","<a:pepedance:713521166706540626>","<a:pepeFatBlush:811267911485227049>","<a:pepehandrub:713547226084933654>","<a:peepopunch:713547228047867904>","<a:peepoEyes:813921521223073833>","<a:peepoggers:713547222091825203>","<a:peepogiggles:713547227091566633>","<a:peepocomfy:713547224327651418>","<a:peepoChat:834513017139888128>","<a:peepoChair:813921187938828288>","<:monkaS:713568037340577822>","<a:naughtypepe:713547242455302165>","<a:CoolBoiFren:829463736783339591>","<a:hackerpepe:713547230589616128>","<:POGGIES:737703712063094897>","<a:pepetyping:713547230698799174>","<a:peperungib:824028120834637825>","<a:pepepopcorn:713547240219607072>","<:pepeOK:713568037265211453>","<:pepeking:713547226848297051>","<a:pepejammies:713547224935563295>","<a:pepeLaughing:768266895387263006>","<a:pepelowerglasses:713547239506706443>","<a:pepeinvestigate:713547234075082883>","<:pepeHug:750127445075558539>","<:PepeHappy:713568037269274785>","<a:pepecryrun:713547226991034409>","<a:pepedance:713521166706540626>","<a:pepeFatBlush:811267911485227049>","<a:pepehandrub:713547226084933654>","<a:peepopunch:713547228047867904>","<a:peepoEyes:813921521223073833>","<a:peepoggers:713547222091825203>","<a:peepogiggles:713547227091566633>","<a:peepocomfy:713547224327651418>","<a:peepoChat:834513017139888128>","<a:peepoChair:813921187938828288>","<:monkaS:713568037340577822>","<a:naughtypepe:713547242455302165>","<a:CoolBoiFren:829463736783339591>","<a:hackerpepe:713547230589616128>","<:POGGIES:737703712063094897>","<a:pepetyping:713547230698799174>","<a:peperungib:824028120834637825>","<a:pepepopcorn:713547240219607072>","<:pepeOK:713568037265211453>","<:pepeking:713547226848297051>","<a:pepejammies:713547224935563295>","<a:pepeLaughing:768266895387263006>","<a:pepelowerglasses:713547239506706443>","<a:pepeinvestigate:713547234075082883>","<:pepeHug:750127445075558539>","<:PepeHappy:713568037269274785>","<a:pepecryrun:713547226991034409>","<a:pepedance:713521166706540626>","<a:pepeFatBlush:811267911485227049>","<a:pepehandrub:713547226084933654>","<a:peepopunch:713547228047867904>","<a:peepoEyes:813921521223073833>","<a:peepoggers:713547222091825203>","<a:peepogiggles:713547227091566633>","<a:peepocomfy:713547224327651418>","<a:peepoChat:834513017139888128>","<a:peepoChair:813921187938828288>","<:monkaS:713568037340577822>","<a:naughtypepe:713547242455302165>","<a:CoolBoiFren:829463736783339591>","<a:hackerpepe:713547230589616128>","<:POGGIES:737703712063094897>"],
-    "pogslots": ["<:WeirdChamp:744508668883632128>","<:PogYou:735987704625496064>","<:PogU:735987694223753226>","<:PogO:752551840595574804>","<:PogChomp:719571345268146217>","<:Pog:737703691976441899>","<:PauseChamp:721440170112712815>","<:PagChomp:765605782838181908>","<:OkayChamp:745391201020149890>","<a:PogLove:835381957990154282>}{random:<:WeirdChamp:744508668883632128>","<:PogYou:735987704625496064>","<:PogU:735987694223753226>","<:PogO:752551840595574804>","<:PogChomp:719571345268146217>","<:Pog:737703691976441899>","<:PauseChamp:721440170112712815>","<:PagChomp:765605782838181908>","<:OkayChamp:745391201020149890>","<a:PogLove:835381957990154282>}{random:<:WeirdChamp:744508668883632128>","<:PogYou:735987704625496064>","<:PogU:735987694223753226>","<:PogO:752551840595574804>","<:PogChomp:719571345268146217>","<:Pog:737703691976441899>","<:PauseChamp:721440170112712815>","<:PagChomp:765605782838181908>","<:OkayChamp:745391201020149890>","<a:PogLove:835381957990154282>"],
-    "vpnslots": ["<:derpvpn:540698011823505409>","<:cernvpn:696062353703305319>","<:retroscribe:690009337556500524>","<:nsavpn:690009873316053083>"]
-}
+    "catroll": [
+      "<:smileCat:834575570792087572>",
+      "<a:catstare:835280025037045781>"
+    ],
+    "fruitslots": [
+      ":green_apple:",
+      ":apple:",
+      ":pear:",
+      ":tangerine:",
+      ":lemon:",
+      ":banana:",
+      ":watermelon:",
+      ":grapes:",
+      ":blueberries:",
+      ":strawberry:",
+      ":melon:",
+      ":cherries:",
+      ":peach:",
+      ":mango:",
+      ":pineapple:",
+      ":coconut:",
+      ":kiwi:"
+    ],
+    "pepeslots": [
+      "<a:pepetyping:713547230698799174>",
+      "<a:peperungib:824028120834637825>",
+      "<a:pepepopcorn:713547240219607072>",
+      "<:pepeOK:713568037265211453>",
+      "<:pepeking:713547226848297051>",
+      "<a:pepejammies:713547224935563295>",
+      "<a:pepeLaughing:768266895387263006>",
+      "<a:pepelowerglasses:713547239506706443>",
+      "<a:pepeinvestigate:713547234075082883>",
+      "<:pepeHug:750127445075558539>",
+      "<:PepeHappy:713568037269274785>",
+      "<a:pepecryrun:713547226991034409>",
+      "<a:pepedance:713521166706540626>",
+      "<a:pepeFatBlush:811267911485227049>",
+      "<a:pepehandrub:713547226084933654>",
+      "<a:peepopunch:713547228047867904>",
+      "<a:peepoEyes:813921521223073833>",
+      "<a:peepoggers:713547222091825203>",
+      "<a:peepogiggles:713547227091566633>",
+      "<a:peepocomfy:713547224327651418>",
+      "<a:peepoChat:834513017139888128>",
+      "<a:peepoChair:813921187938828288>",
+      "<:monkaS:713568037340577822>",
+      "<a:naughtypepe:713547242455302165>",
+      "<a:CoolBoiFren:829463736783339591>",
+      "<a:hackerpepe:713547230589616128>",
+      "<:POGGIES:737703712063094897>"
+    ],
+    "pogslots": [
+      "<:WeirdChamp:744508668883632128>",
+      "<:PogYou:735987704625496064>",
+      "<:PogU:735987694223753226>",
+      "<:PogO:752551840595574804>",
+      "<:PogChomp:719571345268146217>",
+      "<:Pog:737703691976441899>",
+      "<:PauseChamp:721440170112712815>",
+      "<:PagChomp:765605782838181908>",
+      "<:OkayChamp:745391201020149890>",
+      "<a:PogLove:835381957990154282>"
+    ],
+    "vpnslots": [
+      "<:derpvpn:540698011823505409>",
+      "<:cernvpn:696062353703305319>",
+      "<:retroscribe:690009337556500524>",
+      "<:nsavpn:690009873316053083>"
+    ]
+  }
