@@ -8,8 +8,8 @@ class guessgame(commands.Cog):
         # Re-define the bot object into the class.
 
     @commands.cooldown(8,10,commands.BucketType.user)
-    @commands.command(aliases=["guessgameimpossible","ggimpossible"])
-    async def ggi(self, ctx, guess=None):
+    @commands.command(aliases=["guessgame100"])
+    async def gg100(self, ctx, guess=None):
         if guess == None:
             await ctx.send(f":warning: You must specify a guess {ctx.author.mention}!")
             return
@@ -75,6 +75,30 @@ class guessgame(commands.Cog):
             await ctx.send(f":white_check_mark: You win! Your guess was **{guess}** and the number was **{guess}**.")
         else:
             await ctx.send(f":x: Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
+
+    @commands.cooldown(8,10,commands.BucketType.user)
+    @commands.command(aliases=["guessgame1000"])
+    async def ggi(self, ctx, guess=None):
+        if guess == None:
+            await ctx.send(f":warning: You must specify a guess {ctx.author.mention}!")
+            return
+        
+        try:
+            int(guess)
+        except:
+            await ctx.send(f":warning: Your guess needs to be a valid integer {ctx.author.mention}!")
+            return
+        
+        if int(guess) > 1000:
+            await ctx.send(f":warning: Your guess cannot be greater than **1000**!")
+            return
+
+        real = random.randint(1,1000)
+        if real == int(guess):
+            await ctx.send(f":white_check_mark: You win! Your guess was **{guess}** and the number was **{guess}**.")
+        else:
+            await ctx.send(f":x: Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
+
 
 
 def setup(bot):
