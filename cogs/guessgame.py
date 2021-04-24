@@ -26,9 +26,9 @@ class guessgame(commands.Cog):
 
         real = random.randint(1,100)
         if real == int(guess):
-            await ctx.send(f":white_check_mark: You win! Your guess was **{guess}** and the number was **{guess}**.")
+            await ctx.send(f":white_check_mark: {ctx.author.mention} You win! Your guess was **{guess}** and the number was **{guess}**.")
         else:
-            await ctx.send(f":x: Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
+            await ctx.send(f":x: {ctx.author.mention} Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
         
     @commands.cooldown(8,10,commands.BucketType.user)
     @commands.command(aliases=["gg","guessgame"])
@@ -49,9 +49,9 @@ class guessgame(commands.Cog):
 
         real = random.randint(1,10)
         if real == int(guess):
-            await ctx.send(f":white_check_mark: You win! Your guess was **{guess}** and the number was **{guess}**.")
+            await ctx.send(f":white_check_mark: {ctx.author.mention} You win! Your guess was **{guess}** and the number was **{guess}**.")
         else:
-            await ctx.send(f":x: Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
+            await ctx.send(f":x: {ctx.author.mention} Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
 
     @commands.cooldown(8,10,commands.BucketType.user)
     @commands.command(aliases=["guessgamed", "guessgamedecimal"])
@@ -72,9 +72,9 @@ class guessgame(commands.Cog):
 
         real = round(random.uniform(1.0, 51.0),2)
         if real == int(guess):
-            await ctx.send(f":white_check_mark: You win! Your guess was **{guess}** and the number was **{guess}**.")
+            await ctx.send(f":white_check_mark: {ctx.author.mention} You win! Your guess was **{guess}** and the number was **{guess}**.")
         else:
-            await ctx.send(f":x: Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
+            await ctx.send(f":x: {ctx.author.mention} Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
 
     @commands.cooldown(8,10,commands.BucketType.user)
     @commands.command(aliases=["guessgame1000"])
@@ -95,9 +95,9 @@ class guessgame(commands.Cog):
 
         real = random.randint(1,1000)
         if real == int(guess):
-            await ctx.send(f":white_check_mark: You win! Your guess was **{guess}** and the number was **{guess}**.")
+            await ctx.send(f":white_check_mark: {ctx.author.mention} You win! Your guess was **{guess}** and the number was **{guess}**.")
         else:
-            await ctx.send(f":x: Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
+            await ctx.send(f":x: {ctx.author.mention} Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
 
 
 
