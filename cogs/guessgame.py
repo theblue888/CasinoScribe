@@ -28,7 +28,7 @@ class guessgame(commands.Cog):
         if real == int(guess):
             await ctx.send(f":white_check_mark: You win! Your guess was **{guess}** and the number was **{guess}**.")
         else:
-            await ctx.send(f":x: Womp womp. Your guess was **{guess}** but the number was **{guess}**. Better luck next time!")
+            await ctx.send(f":x: Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
         
     @commands.cooldown(8,10,commands.BucketType.user)
     @commands.command(aliases=["gg","guessgame"])
@@ -51,7 +51,7 @@ class guessgame(commands.Cog):
         if real == int(guess):
             await ctx.send(f":white_check_mark: You win! Your guess was **{guess}** and the number was **{guess}**.")
         else:
-            await ctx.send(f":x: Womp womp. Your guess was **{guess}** but the number was **{guess}**. Better luck next time!")
+            await ctx.send(f":x: Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
 
     @commands.cooldown(8,10,commands.BucketType.user)
     @commands.command(aliases=["guessgamed", "guessgamedecimal"])
@@ -74,7 +74,7 @@ class guessgame(commands.Cog):
         if real == int(guess):
             await ctx.send(f":white_check_mark: You win! Your guess was **{guess}** and the number was **{guess}**.")
         else:
-            await ctx.send(f":x: Womp womp. Your guess was **{guess}** but the number was **{guess}**. Better luck next time!")
+            await ctx.send(f":x: Womp womp. Your guess was **{guess}** but the number was **{real}**. Better luck next time!")
 
 
 def setup(bot):
