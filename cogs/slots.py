@@ -101,6 +101,28 @@ class slots(commands.Cog):
         
         await ctx.send('\n'.join(allrows))
 
+    @commands.cooldown(8,10,commands.BucketType.user)
+    @commands.command(aliases=["cs", "cat"])
+    async def catslots(self, ctx):
+        firstrow = []
+        secondrow = []
+        thirdrow = []
+
+        for x in range(3):
+            firstrow.append(random.choice(settings.emojidata["catslots"]))
+        
+        for x in range(3):
+            secondrow.append(random.choice(settings.emojidata["catslots"]))
+
+        for x in range(3):
+            thirdrow.append(random.choice(settings.emojidata["catslots"]))
+        
+        allrows = []
+        allrows.append(''.join(firstrow))
+        allrows.append(''.join(secondrow))
+        allrows.append(''.join(thirdrow))
+        
+        await ctx.send('\n'.join(allrows))
 
 def setup(bot):
     bot.add_cog(slots(bot))
