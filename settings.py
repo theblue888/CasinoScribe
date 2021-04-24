@@ -12,8 +12,9 @@ except:
 try:
     # Connect to MongoDB server
     myclient = pymongo.MongoClient(configdata["mongo"]["url"])
-except:
+except Exception as e:
     print("[ERROR] There was an error connecting to MongoDB. Invalid URL in config.json maybe? Exiting now.")
+    print(str(e))
     exit()
 # Define the main database and collections as variables
 db = myclient["casinoscribe"]
