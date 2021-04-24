@@ -33,7 +33,7 @@ class slots(commands.Cog):
         await ctx.send('\n'.join(allrows))
 
     @commands.cooldown(8,10,commands.BucketType.user)
-    @commands.command(aliases=["ps", "pps"])
+    @commands.command(aliases=["pps"])
     async def pepeslots(self, ctx):
         firstrow = []
         secondrow = []
@@ -47,6 +47,29 @@ class slots(commands.Cog):
 
         for x in range(3):
             thirdrow.append(random.choice(settings.emojidata["pepeslots"]))
+        
+        allrows = []
+        allrows.append(''.join(firstrow))
+        allrows.append(''.join(secondrow))
+        allrows.append(''.join(thirdrow))
+        
+        await ctx.send('\n'.join(allrows))
+    
+    @commands.cooldown(8,10,commands.BucketType.user)
+    @commands.command(aliases=["ps", "pog"])
+    async def pogslots(self, ctx):
+        firstrow = []
+        secondrow = []
+        thirdrow = []
+
+        for x in range(3):
+            firstrow.append(random.choice(settings.emojidata["pogslots"]))
+        
+        for x in range(3):
+            secondrow.append(random.choice(settings.emojidata["pogslots"]))
+
+        for x in range(3):
+            thirdrow.append(random.choice(settings.emojidata["pogslots"]))
         
         allrows = []
         allrows.append(''.join(firstrow))
