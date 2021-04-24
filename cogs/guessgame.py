@@ -61,9 +61,9 @@ class guessgame(commands.Cog):
             return
         
         try:
-            int(guess)
+            float(guess)
         except:
-            await ctx.send(f":warning: Your guess needs to be a valid integer {ctx.author.mention}!")
+            await ctx.send(f":warning: Your guess needs to be a valid float or integer {ctx.author.mention}!")
             return
 
         if int(guess) > 51:
