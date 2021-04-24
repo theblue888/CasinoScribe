@@ -10,6 +10,7 @@ initial_extensions = [
     'cogs.rolls',
     'cogs.listeners',
     'cogs.help',
+    'cogs.guessgame',
     'cogs.currency.wallets'
 ]
 
