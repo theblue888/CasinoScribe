@@ -3,13 +3,13 @@ from discord.ext import commands
 
 import settings
 
-class help(commands.Cog):
+class wallet(commands.Cog):
     def __init__(self,bot):
         self.bot = bot
         # Re-define the bot object into the class.
 
-    self.db = settings.db
-    self.bank = settings.bank
+    db = settings.db
+    bank = settings.bank
 
     @commands.command(aliases=["money","bal","balance","coins"])
     async def wallet(self, ctx):
@@ -35,4 +35,4 @@ class help(commands.Cog):
       
 
 def setup(bot):
-    bot.add_cog(help(bot))
+    bot.add_cog(wallet(bot))
