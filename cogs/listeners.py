@@ -13,7 +13,7 @@ class listeners(commands.Cog):
     async def on_ready(self):
         prefix = settings.configdata["prefix"]
         print('[BOOT] Logged in at ' + str(dt.datetime.now()))
-        await self.bot.change_presence(activity=discord.Game(name=f"{prefix}?help"))
+        await self.bot.change_presence(activity=discord.Game(name=f"{prefix}help"))
         print("[INFO] Username:",self.bot.user.name)
         print("[INFO] User ID:",self.bot.user.id)
 
